@@ -38,6 +38,7 @@ If you use this dataset in your research, please cite:
 
 The repository is organized to mirror the experimental design presented in the paper, with **prompting-based multimodal reasoning methods evaluated first**, followed by **CNN-based supervised baselines**. 
 
+```plaintext
 .
 |-- COT.ipynb
 | # Chain-of-Thought prompting experiments
@@ -61,7 +62,7 @@ The repository is organized to mirror the experimental design presented in the p
 | # CNN baseline using InceptionV4
 `-- README.md
 # Documentation file (this file)
-
+```
 
 
 ### Prompting-Based and Contextual Reasoning Methods
