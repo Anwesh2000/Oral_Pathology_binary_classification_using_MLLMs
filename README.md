@@ -85,14 +85,62 @@ These baselines provide a controlled reference point for evaluating the benefits
 
 ## Environment and Dependencies
 
-The experiments are implemented in Python using Jupyter notebooks. Core dependencies include:
+All experiments in this repository are implemented in Python using Jupyter notebooks.
+The codebase combines CNN-based image classification with prompting-based multimodal
+reasoning and statistical analysis. The dependencies listed below are derived directly
+from the imported libraries used across the notebooks.
 
-- Python ≥ 3.8  
-- PyTorch  
-- Torchvision  
-- NumPy  
-- Scikit-learn  
-- Matplotlib  
-- Jupyter Notebook  
+### Core Environment
+- Python ≥ 3.8
+- Jupyter Notebook / JupyterLab
 
-Exact dependency versions may vary slightly across experiments.
+### Deep Learning and Vision
+- torch
+- torchvision
+- Pillow (PIL)
+
+### Data Handling and Utilities
+- numpy
+- pandas
+- os
+- glob
+- shutil
+- random
+- json
+- time
+- re
+- configparser
+- textwrap
+- base64
+- io (BytesIO)
+
+### Visualization
+- matplotlib
+- plotly
+
+### Machine Learning and Evaluation
+- scikit-learn  
+  - Metrics: accuracy, precision, recall, F1-score  
+  - Confusion matrix and classification reports  
+  - Pairwise similarity (cosine similarity)
+
+### Statistical Analysis and Distance Metrics
+- scipy  
+  - Wasserstein distance  
+  - Energy distance  
+  - Euclidean distance  
+  - Mahalanobis distance  
+  - Bray–Curtis distance  
+  - Vector norms
+
+### Prompting and Multimodal LLM Interface
+- openai (Python SDK)
+
+> **Note:**  
+> Prompting-based experiments (Few-shot, CoT, RAG, and Mixture-of-Experts) rely on
+> external multimodal large language models accessed via the OpenAI API.  
+> API keys and credentials are **not included** in this repository and must be
+> configured separately by the user.
+
+### Progress Monitoring
+- tqdm
