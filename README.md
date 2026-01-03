@@ -38,7 +38,7 @@ If you use this dataset in your research, please cite:
 
 The repository is organized to mirror the experimental design presented in the paper, with **prompting-based multimodal reasoning methods evaluated first**, followed by **CNN-based supervised baselines**. 
 
-
+.
 |-- COT.ipynb
 | # Chain-of-Thought prompting experiments
 |-- Few shot learning.ipynb
