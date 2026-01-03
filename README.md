@@ -40,17 +40,17 @@ The repository is organized to mirror the experimental design presented in the p
 
 ```plaintext
 .
-├── COT.ipynb                                   # Chain-of-Thought prompting experiments
-├── Few shot learning.ipynb                     # Few-shot prompting–based lesion detection
-├── RAG.ipynb                                   # Retrieval-Augmented Generation experiments
-├── Majority Voting.ipynb                       # Multi-expert majority voting baseline
-├── RAG+COT (experts) and Mixture of Experts    # Proposed RAG + CoT with Mixture-of-Experts framework
-├── ResNet18                                    # CNN baseline using ResNet-18
-├── ResNet34                                    # CNN baseline using ResNet-34
-├── ResNet50                                    # CNN baseline using ResNet-50
-├── EfficientNet B4                             # CNN baseline using EfficientNet-B4
-├── InceptionV4                                 # CNN baseline using InceptionV4
-└── README.md                                   # Documentation file (this file)
+├── COT.ipynb                                         # Chain-of-Thought prompting experiments
+├── Few shot learning.ipynb                           # Few-shot prompting–based lesion detection
+├── RAG.ipynb                                         # Retrieval-Augmented Generation experiments
+├── Majority Voting.ipynb                             # Multi-expert majority voting baseline
+├── RAG+COT (experts) and Mixture of Experts.ipynb    # Proposed RAG + CoT with Mixture-of-Experts framework
+├── ResNet18.ipynb                                    # CNN baseline using ResNet-18
+├── ResNet34.ipynb                                    # CNN baseline using ResNet-34
+├── ResNet50.ipynb                                    # CNN baseline using ResNet-50
+├── EfficientNet B4.ipynb                             # CNN baseline using EfficientNet-B4
+├── InceptionV4.ipynb                                 # CNN baseline using InceptionV4
+└── README.md                                         # Documentation file (this file)
 
 ```
 
