@@ -44,6 +44,7 @@ The repository is organized to mirror the experimental design presented in the p
 ├── Few shot learning.ipynb                           # Few-shot prompting–based lesion detection
 ├── RAG.ipynb                                         # Retrieval-Augmented Generation experiments
 ├── Majority Voting.ipynb                             # Multi-expert majority voting baseline
+├── Generate_COT_Dict.ipynb                           # Code to generate chain of thought based on expert annotations
 ├── RAG+COT (experts) and Mixture of Experts.ipynb    # Proposed RAG + CoT with Mixture-of-Experts framework
 ├── ResNet18.ipynb                                    # CNN baseline using ResNet-18
 ├── ResNet34.ipynb                                    # CNN baseline using ResNet-34
@@ -51,7 +52,6 @@ The repository is organized to mirror the experimental design presented in the p
 ├── EfficientNet B4.ipynb                             # CNN baseline using EfficientNet-B4
 ├── InceptionV4.ipynb                                 # CNN baseline using InceptionV4
 └── README.md                                         # Documentation file (this file)
-
 ```
 
 
