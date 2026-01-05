@@ -24,14 +24,6 @@ The dataset used in this study is currently hosted in **private mode** on the Dr
 ### Dataset Description
 The dataset consists of smartphone-acquired buccal mucosa images annotated by clinical experts. It is designed to support research in oral lesion detection, medical image classification, few-shot learning, and multimodal diagnostic reasoning.
 
-### Citation
-If you use this dataset in your research, please cite:
-
-> Kumar, P. D. Madan; Ranganathan, K. S.; Rajeshwari, Pavithra M. C.; Lavanya; Nayak, Anwesh; Kestur, Ramesh; Behera, Sushree; Diddigi, Raghuram Bharadwaj (2025).  
-> **SMART-OM: A SMARTphone-based expert-annotated dataset of Oral Mucosa images.**  
-> Dryad Digital Repository.  
-> https://doi.org/10.5061/dryad.gtht76hz6 *(currently in private mode)*
-
 ---
 
 ## Repository Structure
@@ -144,3 +136,16 @@ from the imported libraries used across the notebooks.
 
 ### Progress Monitoring
 - tqdm
+
+## Citation
+If you use this dataset in your research, please cite:
+
+Kumar, P. D. M., Ranganathan, K. S., Rajeshwari, P. M. C., Lavanya, Nayak, A., Kestur, R., Behera, S., & Diddigi, R. B. (2025).  
+*SMART-OM: A smartphone-based expert-annotated dataset of oral mucosa images*.  
+Dryad Digital Repository. https://doi.org/10.5061/dryad.gtht76hz6 *(currently in private mode)*
+
+If you use this codebase or refer to the proposed methodology, please cite the associated manuscript:
+
+Nayak, A., Diddigi, R. B., Kestur, R., Kumar, P. D. M., Ranganathan, K., Lavanya, C., Rajeshwari, S., & Behera, S. (2025).  
+*Context-guided mixture-of-experts with multimodal LLMs for lesion detection in buccal mucosa images*.  
+Manuscript submitted for publication to *International Dental Journal*.
